@@ -1,0 +1,33 @@
+.card {
+  background-color: #ffffff;
+  margin: 20px;
+  border-radius: 3px;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.name-desc-container {
+  padding: 20px 15px 20px 15px;
+}
+
+.card-name {
+  color: #475569;
+  font-size: 20px;
+  font-weight: 450;
+  margin-bottom: 5px;
+}
+
+.card-desc {
+  color: #64748b;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .card {
+    margin: 10px;
+    flex: 0 0 calc(50% - 20px);
+    max-width: 0 0 calc(50% - 20px);
+  }
+}
